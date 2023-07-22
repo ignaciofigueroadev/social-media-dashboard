@@ -1,0 +1,106 @@
+{
+  "socialCards": [
+    {
+      "icon": "/icons/icon-facebook.svg",
+      "name": "Ignacio Figueroa",
+      "followers": "1987",
+      "borderColor": "border-facebook-color",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastisticQuantity": "12 today",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "icon": "/icons/icon-twitter.svg",
+      "name": "@ignaciodev_",
+      "followers": "1044",
+      "borderColor": "border-twitter-color",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastisticQuantity": "99 today",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "icon": "/icons/icon-instagram.svg",
+      "name": "@figueroaignacio_",
+      "followers": "3k",
+      "borderColor": "border-instagram-color",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastisticQuantity": "1099 today",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "icon": "/icons/icon-youtube.svg",
+      "name": "Code with Nacho",
+      "followers": "197",
+      "borderColor": "border-youtube-color",
+      "statisticIcon": "/icons/icon-down.svg",
+      "stastisticQuantity": "144 today",
+      "stastisticColor": "text-red-500"
+    }
+  ],
+  "overviewCards": [
+    {
+      "title": "Page Views",
+      "icon": "/icons/icon-facebook.svg",
+      "number": "89",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastistic": "3%",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "title": "Likes",
+      "icon": "/icons/icon-facebook.svg",
+      "number": "52",
+      "statisticIcon": "/icons/icon-down.svg",
+      "stastistic": "2%",
+      "stastisticColor": "text-red-500"
+    },
+    {
+      "title": "Likes",
+      "icon": "/icons/icon-instagram.svg",
+      "number": "5462",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastistic": "2257%",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "title": "Profile views",
+      "icon": "/icons/icon-facebook.svg",
+      "number": "52k",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastistic": "1375%",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "title": "Retweets",
+      "icon": "/icons/icon-twitter.svg",
+      "number": "117",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastistic": "303%",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "title": "Likes",
+      "icon": "/icons/icon-twitter.svg",
+      "number": "507",
+      "statisticIcon": "/icons/icon-up.svg",
+      "stastistic": "553%",
+      "stastisticColor": "text-green-500"
+    },
+    {
+      "title": "Likes",
+      "icon": "/icons/icon-youtube.svg",
+      "number": "107",
+      "statisticIcon": "/icons/icon-down.svg",
+      "stastistic": "19%",
+      "stastisticColor": "text-red-500"
+    },
+    {
+      "title": "Total views",
+      "icon": "/icons/icon-youtube.svg",
+      "number": "1407",
+      "statisticIcon": "/icons/icon-down.svg",
+      "stastistic": "12%",
+      "stastisticColor": "text-red-500"
+    }
+  ]
+}
