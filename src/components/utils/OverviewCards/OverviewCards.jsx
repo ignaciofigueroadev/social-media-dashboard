@@ -1,5 +1,10 @@
 import React from "react";
-import Image from "./Image";
+
+// Utils imports
+import Image from "../Image";
+
+// Styles import
+import styles from "./OverviewCards.module.css";
 
 const OverviewCards = ({
   title,
@@ -21,7 +26,7 @@ const OverviewCards = ({
         <p className="text-5xl font-[700] dark:text-white">{number}</p>
         <div className="flex justify-between gap-3 items-center">
           <Image src={statisticIcon} className={"w-2 h-2"} />
-          <p className={statisticColor}>{statistic}</p>
+          <p className={styles[statisticColor]}>{statistic}</p>
         </div>
       </div>
     </div>

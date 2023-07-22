@@ -1,7 +1,7 @@
 import React from "react";
 
 // Overview card import
-import OverviewCards from "../utils/OverviewCards";
+import OverviewCards from "../utils/OverviewCards/OverviewCards";
 
 // Data import
 import data from "../../data/data.json";

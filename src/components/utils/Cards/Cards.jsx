@@ -1,7 +1,10 @@
 import React from "react";
 
 // Utils import
-import Image from "./Image";
+import Image from "../Image";
+
+// Style import
+import styles from "./Cards.module.css";
 
 const Cards = ({
   socialMediaLogo,
@@ -14,7 +17,7 @@ const Cards = ({
 }) => {
   return (
     <div
-      className={`bg-light-grayish-blue border-t-4 ${borderTopColorCard} flex flex-col gap-6 p-5 rounded dark:bg-dark-desaturated-blue hover:scale-105 duration-150 cursor-pointer`}
+      className={`${styles[borderTopColorCard]} bg-light-grayish-blue border-t-4 flex flex-col gap-6 p-5 rounded dark:bg-dark-desaturated-blue hover:scale-105 duration-150 cursor-pointer`}
     >
       <div className="flex items-center justify-center gap-3">
         <Image src={socialMediaLogo} />
@@ -30,7 +33,7 @@ const Cards = ({
       </div>
       <div className="flex items-center justify-center gap-3 dark:text-white">
         <Image src={stastiticIcon} />
-        <p className={stastisticColor}>{statisticQuantity}</p>
+        <p className={styles[stastisticColor]}>{statisticQuantity}</p>
       </div>
     </div>
   );

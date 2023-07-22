@@ -1,5 +1,5 @@
 // Cards import
-import Cards from "../utils/Cards";
+import Cards from "../utils/Cards/Cards";
 
 // Data import
 import data from "../../data/data.json";
